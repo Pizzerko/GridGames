@@ -1,13 +1,31 @@
 .container {
   display: grid;
   /* Style rows and columns */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(15,100px);
+
 }
 
 #title {
-  grid-column: /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+  grid-column: auto; /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
+
 .friend {
+
+}
+
+.aunts{
+
+}
+
+.grandparents{
+
+}
+
+.siblings{
 
 }
 
