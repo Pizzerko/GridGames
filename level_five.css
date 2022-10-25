@@ -7,7 +7,7 @@
 }
 
 #title {
-  grid-column: auto; /*this should span the entire page, look into using negative numbers in grid-column-end*/;
+  grid-column: auto;/*this should span the entire page, look into using negative numbers in grid-column-end*/
   grid-column-start: 1;
   grid-column-end: -1;
 }
@@ -18,15 +18,17 @@
 }
 
 .aunts{
-
+  grid-column-start: span 1;
+  
 }
 
 .grandparents{
-
+  grid-column-start: span 2;
 }
 
 .siblings{
 
+  grid-column-start: span 2;
 }
 
 /* Style other types of family members below*/
